@@ -1,0 +1,63 @@
+/* Styles go here */
+html ,
+
+body {
+    height: 100%;
+
+}
+
+
+svg {
+  font: 10px sans-serif;
+}
+
+.background path {
+  fill: none;
+  stroke: #ddd;
+   stroke-opacity: .4;
+  shape-rendering: crispEdges;
+}
+
+/* .foreground path {
+  fill: none;
+  stroke: steelblue;
+   stroke-opacity: .7;
+} */
+
+.foreground path {
+  fill: none;
+   stroke-opacity: .7;
+}
+
+.Iris-setosa {
+    stroke: red
+}
+
+.Iris-versicolor{
+    stroke: blue
+}
+
+.Iris-virginica{
+    stroke: green
+}
+
+
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+
+  shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  cursor: move;
+  stroke: black;
+}

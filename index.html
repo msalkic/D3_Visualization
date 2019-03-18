@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name = "Data Visualization"
+    <title> </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>   <font face = "Arial" size = "3" color = "#000000">
+        <center> Multivariate Visualizations of Edgar Anderson’s <i>Iris</i> data set<br> </center>
+        <center> Mirnes Salkic, AMOD 5430, April 2018<br> </center>
+        <center> *This code ONLY works with Firefox* <br> </center>
+
+    </h2>
+<p> <Arial> Edgar Anderson's Iris data set consists of 150 samples of which 50 belong to each of the respective categories: Iris-setosa, Iris-versicolor, and Iris-virginica. <br>
+The left-bottom scatterplot was entirely designed by me after completing a tutorial on lynda.com.
+The code for parallel coordinates was taken from <a href= "https://bl.ocks.org/jasondavies/1341281" >here </a <br>and
+    <a href="http://mbostock.github.io/d3/talk/20111116/iris-parallel.html" >here; </a <br> however, parts were rewritten. Finally, the code for the side-by-side boxplots
+        was borrowed from <a href="https://bl.ocks.org/rjurney/e04ceddae2e8f85cf3afe4681dac1d74" >here</a <br>. An important point here is that whiskers show the minimum and maximum
+            values. Again, a good part of the code was rewritten
+            (e.g. changing the scale location, changing the colors of the boxes, changing the scale so that it starts from 0, etc.). The parallel coordinates plot is
+            interactive (i.e. one could substitute the location of y axis by dragging).
+
+</p>
+
+<script src = "http://d3js.org/d3.v4.min.js"></script>
+<script src = "d3.v4.js" ></script>
+<script src = "script.js"> </script>
+<script src = "visualizingIris.js"> </script>
+
+
+</body>
+</html>
